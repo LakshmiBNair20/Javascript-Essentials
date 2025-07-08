@@ -1,3 +1,7 @@
-const person = { name: "Lakshmi", age: 21 };
-const clonedPerson = {...person };
-console.log(clonedPerson);
+const numbers = [1, 2, 3, 4, 5, 6];
+
+function isEven(number) {
+  return number % 2 === 0;
+}
+const evenNos = numbers.filter(isEven);
+console.log(evenNos);
