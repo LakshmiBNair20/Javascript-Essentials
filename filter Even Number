@@ -1,0 +1,3 @@
+const person = { name: "Lakshmi", age: 21 };
+const clonedPerson = {...person };
+console.log(clonedPerson);
