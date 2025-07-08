@@ -1,0 +1,4 @@
+const nos = [10, 20, 30, 40, 50];
+
+const avg = nos.reduce((a, b) => a + b) / nos.length;
+console.log(avg);
